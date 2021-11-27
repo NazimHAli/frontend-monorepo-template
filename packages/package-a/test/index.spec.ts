@@ -1,4 +1,4 @@
-import { packageAindex } from "@package-a/index";
+import { packageAindex } from "@packageA/index";
 
 describe("index", () => {
   describe("packageAindex", () => {

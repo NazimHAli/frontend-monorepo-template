@@ -5,7 +5,7 @@
     "build": "yarn build:test && esbuild ./src --bundle --splitting --format=esm --minify --entry-names='[name]-[hash]' --chunk-names='[name]-[hash]' --outdir='../../dist/package-b'",
     "build:test": "yarn lint && yarn test",
     "cm": "cz",
-    "lint": "tsc --noEmit",
+    "lint": "prettier --check .",
     "test": "jest"
   },
   "devDependencies": {
@@ -17,6 +17,7 @@
     "eslint": "*",
     "eslint-config-prettier": "*",
     "jest": "*",
+    "prettier": "*",
     "ts-jest": "*",
     "ts-node": "*",
     "tsconfig-paths": "*",

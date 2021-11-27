@@ -7,6 +7,5 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es6"
-  },
-  "include": ["./packages/**/*.ts"]
+  }
 }
