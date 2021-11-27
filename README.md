@@ -44,7 +44,7 @@ The folder `packages` contains independent npm packages. Each one has its own `p
 Review [yarn workspaces](https://yarnpkg.com/features/workspaces) for requirements.
 
 
-## Install
+## Install  
 
 #### Repo is pre-configured as a template
 
