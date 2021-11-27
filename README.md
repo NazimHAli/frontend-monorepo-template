@@ -44,39 +44,35 @@ The folder `packages` contains independent npm packages. Each one has its own `p
 Review [yarn workspaces](https://yarnpkg.com/features/workspaces) for requirements.
 
 
+## Shared configuration examples
+- [jest.base-config.js](/jest.base-config.js)
+  - [package-a/jest.config.js](/packages/package-a/jest.config.js)
+  - [package-b/jest.config.js](/packages/package-b/jest.config.js)
+- [tsconfig.json](/tsconfig.json)
+  - [package-a/tsconfig.json](/packages/package-a/tsconfig.json)
+  - [package-b/tsconfig.json](/packages/package-b/tsconfig.json)
+
 ## Install  
 
 #### Repo is pre-configured as a template
 
-1. [Use template](https://github.com/NazimHAli/frontend-monorepo-template/generate)
+1. [Use template](/generate)
 2. [OPTIONAL - configure semantic-releases](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/getting-started.md#getting-started)
     - Automates versioning, GitHub releases + publishing to registries like npmjs
 3. [OPTIONAL - configure commitizen](https://commitizen.github.io/cz-cli/)
     - Simple commit conventions for internet citizens. When you commit with Commitizen, you'll be prompted to fill out any required commit fields at commit time.
 
-## Useful commands
-
-Run scripts from each package
-
-```bash
-yarn workspaces foreach run lint
-```
-
-```bash
-yarn workspaces foreach run test
-```
-
-```bash
-yarn workspaces foreach run build
-```
+## Run scripts against each package  
+   - `yarn workspaces foreach run test`
+   - `yarn workspaces foreach run build`
 
 ## Similar projects
 - [ts-monorepo](https://github.com/NiGhTTraX/ts-monorepo)
 - [typescript-npm-package-template](https://github.com/ryansonshine/typescript-npm-package-template)
 - [node-module-boilerplate](https://github.com/sindresorhus/node-module-boilerplate)
 
-[build-img]: https://github.com/NazimHAli/frontend-monorepo-template/actions/workflows/release.yml/badge.svg
-[build-url]: https://github.com/NazimHAli/frontend-monorepo-template/actions/workflows/release.yml
+[build-img]: /actions/workflows/release.yml/badge.svg
+[build-url]: /actions/workflows/release.yml
 [commitizen-img]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
 [commitizen-url]: http://commitizen.github.io/cz-cli/
 [downloads-img]: https://img.shields.io/npm/dt/frontend-monorepo-template
