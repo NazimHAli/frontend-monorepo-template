@@ -71,8 +71,8 @@ Review [yarn workspaces](https://yarnpkg.com/features/workspaces) for requiremen
 - [typescript-npm-package-template](https://github.com/ryansonshine/typescript-npm-package-template)
 - [node-module-boilerplate](https://github.com/sindresorhus/node-module-boilerplate)
 
-[build-img]: /actions/workflows/release.yml/badge.svg
-[build-url]: /actions/workflows/release.yml
+[build-img]: https://github.com/NazimHAli/frontend-monorepo-template/actions/workflows/release.yml/badge.svg
+[build-url]: https://github.com/NazimHAli/frontend-monorepo-template/actions/workflows/release.yml
 [commitizen-img]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
 [commitizen-url]: http://commitizen.github.io/cz-cli/
 [downloads-img]: https://img.shields.io/npm/dt/frontend-monorepo-template
