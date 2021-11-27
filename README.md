@@ -10,7 +10,9 @@
 > Monorepo template configured with Yarn 2, Typescript, automated Gihub releases and npm publishing.
 
 ## Install
+### Repo is pre-configured as a template
 
+- [Use template](https://github.com/NazimHAli/frontend-monorepo-template/generate)
 
 [build-img]: https://github.com/NazimHAli/frontend-monorepo-template/actions/workflows/release.yml/badge.svg
 [build-url]: https://github.com/NazimHAli/frontend-monorepo-template/actions/workflows/release.yml
