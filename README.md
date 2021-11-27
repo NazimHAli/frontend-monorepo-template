@@ -9,6 +9,41 @@
 
 > Monorepo template configured with Yarn 2, Typescript, automated Gihub releases and npm publishing.
 
+## Structure
+
+```
+project
+│   README.md
+│
+└───.github
+│   └───workflows
+│       │   release.yml
+│       │   unit-tests.yml
+│
+└───packages
+    └───package-a
+    │   │   release.yml
+    │   │   package.json
+    │   │   tsconfig.json
+    │   └───src
+    │   |     | index.ts
+    │   └───test
+    │         | index.spec.ts
+    └───package-b
+        │   release.yml
+        │   package.json
+        │   tsconfig.json
+        └───src
+        |     | index.ts
+        └───test
+               | index.spec.ts
+
+```
+
+The folder `packages` contains independent npm packages. Each one has its own `package.json` with a unique name and yarn workspaces will automatically recognize them.
+Review [yarn workspaces](https://yarnpkg.com/features/workspaces) for requirements.
+
+
 ## Install
 
 #### Repo is pre-configured as a template
