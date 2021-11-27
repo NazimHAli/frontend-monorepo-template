@@ -48,7 +48,11 @@ Review [yarn workspaces](https://yarnpkg.com/features/workspaces) for requiremen
 
 #### Repo is pre-configured as a template
 
-- [Use template](https://github.com/NazimHAli/frontend-monorepo-template/generate)
+1. [Use template](https://github.com/NazimHAli/frontend-monorepo-template/generate)
+2. [OPTIONAL - configure semantic-releases](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/getting-started.md#getting-started)
+    - Automates versioning, GitHub releases + publishing to registries like npmjs
+3. [OPTIONAL - configure commitizen](https://commitizen.github.io/cz-cli/)
+    - Simple commit conventions for internet citizens. When you commit with Commitizen, you'll be prompted to fill out any required commit fields at commit time.
 
 ## Useful commands
 
@@ -65,6 +69,11 @@ yarn workspaces foreach run test
 ```bash
 yarn workspaces foreach run build
 ```
+
+## Similar projects
+- [ts-monorepo](https://github.com/NiGhTTraX/ts-monorepo)
+- [typescript-npm-package-template](https://github.com/ryansonshine/typescript-npm-package-template)
+- [node-module-boilerplate](https://github.com/sindresorhus/node-module-boilerplate)
 
 [build-img]: https://github.com/NazimHAli/frontend-monorepo-template/actions/workflows/release.yml/badge.svg
 [build-url]: https://github.com/NazimHAli/frontend-monorepo-template/actions/workflows/release.yml
