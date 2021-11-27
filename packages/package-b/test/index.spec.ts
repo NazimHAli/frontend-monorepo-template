@@ -1,10 +1,10 @@
-import { packageAindex } from "@packageA/index";
+import { packageBindex } from "../src/index";
 
 describe("index", () => {
-  describe("packageAindex", () => {
+  describe("packageBindex", () => {
     it("returns input", () => {
       const message = "moo";
-      const result = packageAindex(message);
+      const result = packageBindex(message);
 
       expect(result).toMatch(message);
     });

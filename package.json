@@ -50,14 +50,13 @@
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "husky": "^7.0.4",
     "jest": "^27.3.1",
-    "jest-junit": "^13.0.0",
     "lint-staged": "^12.1.2",
     "prettier": "^2.5.0",
     "semantic-release": "^18.0.1",
     "ts-jest": "^27.0.7",
     "ts-node": "^10.2.1",
     "tsconfig-paths": "^3.12.0",
-    "typescript": "4.4.4"
+    "typescript": "^4.5.2"
   },
   "packageManager": "yarn@3.1.1",
   "release": {
@@ -81,11 +80,11 @@
     "node": ">=14.0"
   },
   "keywords": [
-    "firebase",
-    "firestore",
-    "cloud-functions",
-    "data bundles",
-    "typescript"
+    "monorepo",
+    "template",
+    "typescript",
+    "workspaces",
+    "yarn"
   ],
   "bugs": {
     "url": "https://github.com/NazimHAli/frontend-monorepo-template/issues"
