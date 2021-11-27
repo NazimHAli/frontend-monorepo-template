@@ -1,4 +1,4 @@
-const packageAindex = (input = "") => {
+const packageAindex = (input = " ") => {
   return input;
 };
 
