@@ -1,0 +1,25 @@
+{
+  "name": "package-a",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "yarn build:test && esbuild ./src --bundle --splitting --format=esm --minify --entry-names='[name]-[hash]' --chunk-names='[name]-[hash]' --outdir='../../dist/package-a'",
+    "build:test": "yarn lint && yarn test",
+    "cm": "cz",
+    "lint": "tsc --noEmit",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "*",
+    "@types/node": "*",
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "esbuild": "*",
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "jest": "*",
+    "ts-jest": "*",
+    "ts-node": "*",
+    "tsconfig-paths": "*",
+    "typescript": "*"
+  }
+}
