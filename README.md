@@ -43,8 +43,8 @@ project
 The folder `packages` contains independent npm packages. Each one has its own `package.json` with a unique name and yarn workspaces will automatically recognize them.
 Review [yarn workspaces](https://yarnpkg.com/features/workspaces) for requirements.
 
-
 ## Shared configuration examples
+
 - [jest.base-config.js](/jest.base-config.js)
   - [package-a/jest.config.js](/packages/package-a/jest.config.js)
   - [package-b/jest.config.js](/packages/package-b/jest.config.js)
@@ -52,21 +52,27 @@ Review [yarn workspaces](https://yarnpkg.com/features/workspaces) for requiremen
   - [package-a/tsconfig.json](/packages/package-a/tsconfig.json)
   - [package-b/tsconfig.json](/packages/package-b/tsconfig.json)
 
-## Install  
+## Generate new project
 
-#### Repo is pre-configured as a template
+1. [Option 1 - Generate GitHub template](/generate) since this repo is configured as a template
+2. Option 2 - scaffold new project with `degit`
+   - `mkdir new-monorepo`
+   - `npx degit NazimHAli/frontend-monorepo-template new-monorepo`
 
-1. [Use template](/generate)
-2. [OPTIONAL - configure semantic-releases](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/getting-started.md#getting-started)
-    - Automates versioning, GitHub releases + publishing to registries like npmjs
-3. [OPTIONAL - configure commitizen](https://commitizen.github.io/cz-cli/)
-    - Simple commit conventions for internet citizens. When you commit with Commitizen, you'll be prompted to fill out any required commit fields at commit time.
+##### Optional & recommended configurations
 
-## Run scripts against each package  
-   - `yarn workspaces foreach run test`
-   - `yarn workspaces foreach run build`
+- [semantic-releases](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/getting-started.md#getting-started)
+  - Automates versioning, GitHub releases + publishing to registries like npmjs
+- [commitizen](https://commitizen.github.io/cz-cli/)
+  - Simple commit conventions for internet citizens. When you commit with Commitizen, you'll be prompted to fill out any required commit fields at commit time.
+
+## Run scripts against each package
+
+- `yarn workspaces foreach run test`
+- `yarn workspaces foreach run build`
 
 ## Similar projects
+
 - [ts-monorepo](https://github.com/NiGhTTraX/ts-monorepo)
 - [typescript-npm-package-template](https://github.com/ryansonshine/typescript-npm-package-template)
 - [node-module-boilerplate](https://github.com/sindresorhus/node-module-boilerplate)
