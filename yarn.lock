@@ -658,6 +658,46 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@frontend-monorepo-template/package-a@workspace:packages/package-a":
+  version: 0.0.0-use.local
+  resolution: "@frontend-monorepo-template/package-a@workspace:packages/package-a"
+  dependencies:
+    "@types/jest": "*"
+    "@types/node": "*"
+    "@typescript-eslint/eslint-plugin": "*"
+    "@typescript-eslint/parser": "*"
+    esbuild: "*"
+    eslint: "*"
+    eslint-config-prettier: "*"
+    jest: "*"
+    prettier: "*"
+    ts-jest: "*"
+    ts-node: "*"
+    tsconfig-paths: "*"
+    typescript: "*"
+  languageName: unknown
+  linkType: soft
+
+"@frontend-monorepo-template/package-b@workspace:packages/package-b":
+  version: 0.0.0-use.local
+  resolution: "@frontend-monorepo-template/package-b@workspace:packages/package-b"
+  dependencies:
+    "@types/jest": "*"
+    "@types/node": "*"
+    "@typescript-eslint/eslint-plugin": "*"
+    "@typescript-eslint/parser": "*"
+    esbuild: "*"
+    eslint: "*"
+    eslint-config-prettier: "*"
+    jest: "*"
+    prettier: "*"
+    ts-jest: "*"
+    ts-node: "*"
+    tsconfig-paths: "*"
+    typescript: "*"
+  languageName: unknown
+  linkType: soft
+
 "@gar/promisify@npm:^1.0.1":
   version: 1.1.2
   resolution: "@gar/promisify@npm:1.1.2"
@@ -7668,46 +7708,6 @@ __metadata:
   checksum: f8a8e9a7693659383f06aec604ad5ead237c7a261c18048a6e1b5b85a5f8a067e469aa24f5bc009b991ea3b058a87f5065ef4176793a200d4917349881216cae
   languageName: node
   linkType: hard
-
-"package-a@workspace:packages/package-a":
-  version: 0.0.0-use.local
-  resolution: "package-a@workspace:packages/package-a"
-  dependencies:
-    "@types/jest": "*"
-    "@types/node": "*"
-    "@typescript-eslint/eslint-plugin": "*"
-    "@typescript-eslint/parser": "*"
-    esbuild: "*"
-    eslint: "*"
-    eslint-config-prettier: "*"
-    jest: "*"
-    prettier: "*"
-    ts-jest: "*"
-    ts-node: "*"
-    tsconfig-paths: "*"
-    typescript: "*"
-  languageName: unknown
-  linkType: soft
-
-"package-b@workspace:packages/package-b":
-  version: 0.0.0-use.local
-  resolution: "package-b@workspace:packages/package-b"
-  dependencies:
-    "@types/jest": "*"
-    "@types/node": "*"
-    "@typescript-eslint/eslint-plugin": "*"
-    "@typescript-eslint/parser": "*"
-    esbuild: "*"
-    eslint: "*"
-    eslint-config-prettier: "*"
-    jest: "*"
-    prettier: "*"
-    ts-jest: "*"
-    ts-node: "*"
-    tsconfig-paths: "*"
-    typescript: "*"
-  languageName: unknown
-  linkType: soft
 
 "pacote@npm:*, pacote@npm:^12.0.0, pacote@npm:^12.0.2":
   version: 12.0.2

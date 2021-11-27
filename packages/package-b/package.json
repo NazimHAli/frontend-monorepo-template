@@ -1,5 +1,5 @@
 {
-  "name": "package-b",
+  "name": "@frontend-monorepo-template/package-b",
   "version": "1.0.0",
   "scripts": {
     "build": "yarn build:test && esbuild ./src --bundle --splitting --format=esm --minify --entry-names='[name]-[hash]' --chunk-names='[name]-[hash]' --outdir='../../dist/package-b'",
